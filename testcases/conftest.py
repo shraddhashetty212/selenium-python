@@ -32,6 +32,7 @@ def setup(request, browser):
 
 def pytest_addoption(parser):
     parser.addoption("--browser")
+    #New comment to test
 
 @pytest.fixture(scope="class", autouse=True)
 def browser(request):
